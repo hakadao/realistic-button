@@ -39,6 +39,24 @@
     transition: 0.15s ease-out;
   }
 
+  .links {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin-bottom: 60px;
+    font-weight: 600;
+  }
+
+  .links a {
+    color: #262626;
+    display: block;
+    background-color: white;
+    padding: 4px 8px;
+    border-radius: 6px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+  }
+
   .container {
     display: grid;
     place-items: center;
@@ -107,8 +125,13 @@
 </style>
 
 <body>
-  <h1>Inspired by <a href="https://x.com/motomiya333/status/2001730072026452172" target="_blank">this amazing work</a>
+  <h1>
+    Inspired by <a href="https://x.com/motomiya333/status/2001730072026452172" target="_blank">this amazing work</a>
   </h1>
+  <div class="links">
+    <a href="https://github.com/hakadao/realistic-button">GitHub</a>
+    <a href="https://github.com/">CodePen</a>
+  </div>
   <div class="container">
     <button>A</button>
     <button>B</button>
